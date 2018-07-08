@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,800|Noto+Serif');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url(../images/deskhero.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(0,0,0,.75);
+}
+
+header {
+	background-color: white;
+	padding: 20px 20px 20px 100px;
+	text-transform: uppercase;
+	font-style: bold;
+	font-size: 12px;
+}
+
+section {
+	padding: 100px 50px 75px 100px;
+}
+
+footer {
+	background-color: black;
+	padding: 20px 20px 20px 100px;
+	text-transform: uppercase;
+	font-style: bold;
+	font-size: 12px;
+}
+
+main{
+	padding: 20px 20px 20px 100px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-style: bold;
+}
+
+p {
+	font-family: 'Noto Serif', serif;
+}
+
+a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+nav a {
+	color: grey;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#slogan {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-style: italic;
+}
