@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,800|Noto+Serif');
+
+/*@font-face {
+	font-family: 'KlinicSlab';
+	src: url('css/KlinicSlabBold.otf') format('otf');
+}*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*body {
+	background: url(../images/deskhero.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(0,0,0,.75);
+}*/
+
+header {
+	background: url(../images/barcshero.jpg) no-repeat center center fixed;
+	background-size: cover;
+	/*padding: 20px;*/
+	color: white;
+}
+
+/*main{
+	padding: 20px 100px 20px 100px;
+}*/
+
+nav {
+	background-color: white;
+	padding: 20px 20px 20px 100px;
+	text-transform: uppercase;
+	font-style: bold;
+	font-size: 12px;
+}
+
+/*section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 100px 50px 75px 0px;
+}*/
+
+article {
+/*	background-color: #E89C6C;
+	border: 1px black solid;*/
+	padding: 70px 100px 100px 100px;
+}
+
+footer {
+	background-color: black;
+/*	padding: 20px 20px 20px 100px;*/
+	text-transform: uppercase;
+	font-style: bold;
+	font-size: 12px;
+}
+
+h1, h3, h4, h2 {
+	font-family: Klinic Slab, serif;
+	font-style: bold;
+}
+
+h1, h3, h5 {
+	color: white;
+}
+
+h4, h2 {
+	color: #F7941D;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 200px;
+	letter-spacing: .03em;
+	line-height: .6em;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-size: 40px;
+	line-height: 1.7em;
+}
+
+h3 {
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	letter-spacing: .06em;
+}
+
+h4{
+	font-size: 25px;
+	margin-bottom: 0px;
+	line-height: 3em;
+}
+
+h5 {
+	font-family: Futura, sans-serif;
+	text-transform: uppercase;
+	font-style: bold;
+	letter-spacing: .1em;
+	line-height: 2em;
+}
+
+p {
+	font-family: 'Noto Serif', serif;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+}
+
+a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .1em;
+	margin-right: 10px;
+}
+
+nav a {
+	color: grey;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#hero {
+	text-align: center;
+	color: white;
+	padding-top: 400px;
+	padding-bottom: 400px;
+}
+
+#headadopt {
+	padding: 10px 30px;
+	border: 2px solid #F7941D;
+	border-radius: 50px;
+	line-height: 2em;
+}
+
+#adopt {
+	text-align: center;
+}
+
+#adopt a {
+	color: grey;
+}
+
+#animals {
+	padding: 0px;
+	max-width: 100%;
+}
+
+#donate {
+	background: url(../images/donate.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#ftd {
+	background-color: #F7941D;
+	background-size: cover;
+/*	width: 100%;*/
+	padding: 20px 20px 20px 100px;
+}
+
+#callout {
+	color: #F7941D;
+}
+
+#view {
+	color: grey;
+	padding: 10px 40px;
+	border: 2px solid #F7941D;
+	border-radius: 50px;
+	line-height: 2em;
+}
+
+#donatecallout {
+	font-size: 70px;
+}
+
+#donatebutton {
+	padding: 10px 40px;
+	border: 2px solid white;
+	border-radius: 50px;
+	line-height: 5em;
+	margin-top: 70px;
+}
+
+#footer {
+	color: white;
+	background-color: black;
+}
+
+#header {
+	color: grey;
+}
+
+#two-column {
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 100px;
+}
+
+#left {
+/*	background-color: #e582a2;
+	border: 1px black solid;*/
+	padding: 60px 10px 80px 400px;
+	text-align: center;
+	align-content: center;
+	float: left;
+	width: 30%;
+}
+
+#right {
+/*	background-color: #e55b88;
+	border: 1px black solid;*/
+	padding: 60px 400px 80px 10px;
+	text-align: center;
+	align-content: center;
+	float: right;
+	width: 30%;
+}
+
+#column1 {
+	background: url(../images/cat1.jpg);
+	background-size: cover;
+}
+
+#column2 {
+	background: url(../images/dog1.jpg);
+	background-size: cover;
+}
+
+#column3 {
+	background: url(../images/cat2.jpg);
+	background-size: cover;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.column {
+	float: left;
+	width: 32%;
+	height: 700px;
+	/*padding: 1%;*/
+	margin: 0 0 0 1%;
+}
+
+/*.row {
+  display: flex;
+  max-width: 100%;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}*/
